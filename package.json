@@ -7,7 +7,7 @@
   "unpkg": "dist/vue-multipane.min.js",
   "module": "dist/vue-multipane.esm.js",
   "scripts": {
-    "build": "yarn run build:prod && yarn run build:dev && yarn run build:esm && yarn run build:demo",
+    "build": "npm run build:prod && npm run build:dev && npm run build:esm && npm run build:demo",
     "build:prod": "cross-env rollup -c rollup.config.prod.js",
     "build:dev": "cross-env rollup -c rollup.config.dev.js",
     "build:esm": "cross-env rollup -c rollup.config.esm.js",
