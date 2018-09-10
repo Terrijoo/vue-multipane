@@ -9,3 +9,4 @@ dist/manifest.js
 dist/vendor.js
 hot
 mix-manifest.json
+/.idea
